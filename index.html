@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Winter Sweater Store</title>
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- AOS Animation -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+
+  <style>
+    .hero {
+      background: linear-gradient(to right, #f8fafc, #e2e8f0);
+    }
+  </style>
+</head>
+
+<body class="bg-white text-gray-800">
+
+  <!-- Header -->
+  <header class="bg-white shadow sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+
+      <!-- Logo + Name -->
+      <div class="flex items-center gap-">
+        <img src="image/White and Grey Elegant Minimalistic Fashion Clothing Logo.png" alt="Clothes Season Logo"
+          class="w-15 h-10 object-contain">
+        <h1 class="text-2xl font-bold">Clothes Season</h1>
+      </div>
+
+      <button class="bg-black text-white px-5 py-2 rounded-full">Shop Now</button>
+    </div>
+  </header>
+
+  <!-- FLIPKART STYLE CATEGORY BAR (ALL WITH DROPDOWN) -->
+
+
+
+  <!-- Hero Banner -->
+  <section class="hero py-14 ">
+    <div class="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center gap-10">
+      <div data-aos="fade-right">
+        <h2 class="text-4xl font-bold mb-4">Winter Special Sweaters</h2>
+        <p class="text-lg mb-6">Best quality winter sweaters at amazing prices.</p>
+        <a href="#products" class="bg-black text-white px-6 py-3 rounded-full inline-block">
+          Explore Collection
+        </a>
+      </div>
+
+      <img src="image/Black and White Winter Collection Fashion Facebook Post (1).png"
+        class="rounded-xl shadow-xl w-full md:w-[550px]" />
+    </div>
+  </section>
+
+
+
+  <!-- Category Buttons Only -->
+  <div class="flex justify-center gap-3 mb-10 flex-wrap">
+    <button class="bg-gray-200 text-black px-5 py-2 rounded-full hover:bg-gray-300 transition"
+      onclick="window.location.href='hoodies.html'">
+      Hoodies
+    </button>
+
+    <button class="bg-gray-200 text-black px-5 py-2 rounded-full hover:bg-gray-300 transition"
+      onclick="window.location.href='Denim.html'">
+      Denim Jackets
+    </button>
+
+    <button class="bg-gray-200 text-black px-5 py-2 rounded-full hover:bg-gray-300 transition">
+      Children Sweater
+    </button>
+  </div>
+
+  <!-- Products Section -->
+  <section id="products" class="max-w-7xl mx-auto px-4 py-6">
+    <h2 class="text-3xl font-bold text-center mb-10">Trending Sweaters</h2>
+
+    <!-- Grid: Mobile = 3, Tablet = 3, Desktop = 4 -->
+    <div class="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-4 gap-3">
+
+      <!-- Product 1 -->
+      <div class="bg-white rounded-xl shadow p-2 border hover:scale-105 transition">
+        <a href="https://fkrt.co/9dKAUL"><img
+            src="https://rukminim2.flixcart.com/image/612/612/xif0q/jacket/b/x/e/m-1-no-1732-nuevosporta-original-imahhggfwvz5cfzr.jpeg?q=70"
+            class="w-full h-28 sm:h-36 md:h-48 object-contain object-center rounded-lg" /></a>
+
+        <h3 class="text-xs sm:text-sm font-semibold mt-2 leading-tight">
+          Men Washed Denim Jacket
+        </h3>
+
+        <p class="text-gray-500 text-xs line-through">₹999</p>
+        <p class="text-black font-bold text-sm">₹137</p>
+      </div>
+
+      <!-- Product 2 -->
+      <div class="bg-white rounded-xl shadow p-2 border hover:scale-105 transition">
+        <img
+          src="https://rukminim2.flixcart.com/image/612/612/xif0q/jacket/n/e/h/s-1-no-14373682-roadster-original-imahgcq3rhf4szf2.jpeg?q=70"
+          class="w-full h-28 sm:h-36 md:h-48 object-contain object-center rounded-lg" />
+
+        <h3 class="text-xs sm:text-sm font-semibold mt-2 leading-tight">
+          Men Solid Padded Jacket
+        </h3>
+
+        <p class="text-gray-500 text-xs line-through">₹999</p>
+        <p class="text-black font-bold text-sm">₹137</p>
+        <!-- 
+            https://www.flipkart.com/roadster-full-sleeve-solid-men-padded-jacket/p/itm6c209c8274b59?pid=JCKG8RFNMZJUY6GN&lid=LSTJCKG8RFNMZJUY6GNPVPDI0&marketplace=FLIPKART&q=winter+jacket+for+men&store=clo%2Fqvw%2Fz0g%2Fjbm&srno=s_1_36&otracker=AS_QueryStore_OrganicAutoSuggest_1_4_na_na_ps&otracker1=AS_QueryStore_OrganicAutoSuggest_1_4_na_na_ps&fm=search-autosuggest&iid=1cdfaef6-92a4-4a90-859b-cc3e15fbd402.JCKG8RFNMZJUY6GN.SEARCH&ppt=sp&ppn=sp&qH=690734614a7cc75b -->
+      </div>
+
+      <!-- Product 3 -->
+      <div class="bg-white rounded-xl shadow p-2 border hover:scale-105 transition">
+        <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/jacket/4/v/j/-original-imah7yuhrukazzmz.jpeg?q=70"
+          class="w-full h-28 sm:h-36 md:h-48 object-contain object-center rounded-lg" />
+
+        <h3 class="text-xs sm:text-sm font-semibold mt-2 leading-tight">
+          Men Colorblock Puffer Jacket
+        </h3>
+
+        <p class="text-gray-500 text-xs line-through">₹999</p>
+        <p class="text-black font-bold text-sm">₹137</p>
+      </div>
+      <!-- https://www.flipkart.com/indian-garage-co-full-sleeve-colorblock-men-jacket/p/itm80e2e156f4560?pid=JCKH5PYBHGDCPKFK&lid=LSTJCKH5PYBHGDCPKFK8OH5TT&marketplace=FLIPKART&q=winter%20jacket%20for%20men&sattr[]=color&st=color -->
+
+      <!-- product 4 -->
+      <div class="bg-white rounded-xl shadow p-2 border hover:scale-105 transition">
+        <img
+          src="https://rukminim2.flixcart.com/image/612/612/xif0q/jacket/g/z/n/l-1-no-jakt-denimball-lblue-urbano-fashion-original-imahgbdzwky6hc9w.jpeg?q=70"
+          class="w-full h-28 sm:h-36 md:h-48 object-contain object-center rounded-lg" />
+
+        <h3 class="text-xs sm:text-sm font-semibold mt-2 leading-tight">
+          Men Washed Denim Jacket
+        </h3>
+
+        <p class="text-gray-500 text-xs line-through">₹999</p>
+        <p class="text-black font-bold text-sm">₹137</p>
+
+        <!-- https://www.flipkart.com/urbano-fashion-full-sleeve-washed-men-denim-jacket/p/itm01fc525705cf4?pid=JCKH27U8FAMMW3GG&lid=LSTJCKH27U8FAMMW3GGRG7CRR&marketplace=FLIPKART&q=winter+jacket+for+men&store=clo%2Fqvw%2Fz0g%2Fjbm&srno=s_1_33&otracker=AS_QueryStore_OrganicAutoSuggest_1_4_na_na_ps&otracker1=AS_QueryStore_OrganicAutoSuggest_1_4_na_na_ps&fm=search-autosuggest&iid=1cdfaef6-92a4-4a90-859b-cc3e15fbd402.JCKH27U8FAMMW3GG.SEARCH&ppt=sp&ppn=sp&qH=690734614a7cc75b -->
+      </div>
+
+      <!-- product 5 -->
+      <div class="bg-white rounded-xl shadow p-2 border hover:scale-105 transition">
+        <img
+          src="https://rukminim2.flixcart.com/image/612/612/xif0q/jacket/l/k/w/m-1-yes-velvet-m-azmifasion-original-imahgkqp7ymgurff.jpeg?q=70"
+          class="w-full h-28 sm:h-36 md:h-48 object-contain object-center rounded-lg" />
+
+        <h3 class="text-xs sm:text-sm font-semibold mt-2 leading-tight">
+          Men Solid Winter Coat
+        </h3>
+
+        <p class="text-gray-500 text-xs line-through">₹999</p>
+        <p class="text-black font-bold text-sm">₹137</p>
+        <!-- https://www.flipkart.com/azmifasion-full-sleeve-solid-men-jacket/p/itmc59bd90419396?pid=JCKHGKQPG9D8HPYY&lid=LSTJCKHGKQPG9D8HPYYRTJLYU&marketplace=FLIPKART&q=winter+jacket+for+men&store=clo%2Fqvw%2Fz0g%2Fjbm&srno=s_2_47&otracker=AS_QueryStore_OrganicAutoSuggest_1_4_na_na_ps&otracker1=AS_QueryStore_OrganicAutoSuggest_1_4_na_na_ps&fm=search-autosuggest&iid=983b839f-4074-40e7-8306-dcf9ded9ea59.JCKHGKQPG9D8HPYY.SEARCH&ppt=sp&ppn=sp&qH=690734614a7cc75b -->
+      </div>
+
+      <!-- product 6 -->
+      <div class="bg-white rounded-xl shadow p-2 border hover:scale-105 transition">
+        <img
+          src="https://rukminim2.flixcart.com/image/612/612/xif0q/jacket/n/t/m/l-no-ldr-jkt-0011-black-sms-creation-original-imaguuayayx7qeww.jpeg?q=70"
+          class="w-full h-28 sm:h-36 md:h-48 object-contain object-center rounded-lg" />
+
+        <h3 class="text-xs sm:text-sm font-semibold mt-2 leading-tight">
+          Men Solid Biker/RidingJacket
+        </h3>
+
+        <p class="text-gray-500 text-xs line-through">₹999</p>
+        <p class="text-black font-bold text-sm">₹137</p>
+        <!-- https://www.flipkart.com/sms-creation-full-sleeve-solid-men-jacket/p/itma7a8cac6b71c9?pid=JCKGUUA3HJ24Q5Q5&lid=LSTJCKGUUA3HJ24Q5Q5UE7MUM&marketplace=FLIPKART&q=winter+jacket+for+men&store=clo%2Fqvw%2Fz0g%2Fjbm&srno=s_4_154&otracker=AS_QueryStore_OrganicAutoSuggest_1_4_na_na_ps&otracker1=AS_QueryStore_OrganicAutoSuggest_1_4_na_na_ps&fm=search-autosuggest&iid=d93472c1-9910-4b68-9b93-05edc5f7021c.JCKGUUA3HJ24Q5Q5.SEARCH&ppt=sp&ppn=sp&qH=690734614a7cc75b -->
+      </div>
+      <!-- Product 7 -->
+      <div class="bg-white rounded-xl shadow p-2 border hover:scale-105 transition">
+        <a href="https://fkrt.co/9dKAUL"><img
+            src="https://rukminim2.flixcart.com/image/612/612/xif0q/jacket/b/x/e/m-1-no-1732-nuevosporta-original-imahhggfwvz5cfzr.jpeg?q=70"
+            class="w-full h-28 sm:h-36 md:h-48 object-contain object-center rounded-lg" /></a>
+
+        <h3 class="text-xs sm:text-sm font-semibold mt-2 leading-tight">
+          Men Washed Denim Jacket
+        </h3>
+
+        <p class="text-gray-500 text-xs line-through">₹999</p>
+        <p class="text-black font-bold text-sm">₹137</p>
+      </div>
+      <!-- Product 8 -->
+      <div class="bg-white rounded-xl shadow p-2 border hover:scale-105 transition">
+        <a href="https://fkrt.co/9dKAUL"><img
+            src="https://rukminim2.flixcart.com/image/612/612/xif0q/jacket/b/x/e/m-1-no-1732-nuevosporta-original-imahhggfwvz5cfzr.jpeg?q=70"
+            class="w-full h-28 sm:h-36 md:h-48 object-contain object-center rounded-lg" /></a>
+
+        <h3 class="text-xs sm:text-sm font-semibold mt-2 leading-tight">
+          Men Washed Denim Jacket
+        </h3>
+
+        <p class="text-gray-500 text-xs line-through">₹999</p>
+        <p class="text-black font-bold text-sm">₹137</p>
+      </div>
+      <!-- Product 9 -->
+      <div class="bg-white rounded-xl shadow p-2 border hover:scale-105 transition">
+        <a href="https://fkrt.co/9dKAUL"><img
+            src="https://rukminim2.flixcart.com/image/612/612/xif0q/jacket/b/x/e/m-1-no-1732-nuevosporta-original-imahhggfwvz5cfzr.jpeg?q=70"
+            class="w-full h-28 sm:h-36 md:h-48 object-contain object-center rounded-lg" /></a>
+
+        <h3 class="text-xs sm:text-sm font-semibold mt-2 leading-tight">
+          Men Washed Denim Jacket
+        </h3>
+
+        <p class="text-gray-500 text-xs line-through">₹999</p>
+        <p class="text-black font-bold text-sm">₹137</p>
+      </div>
+      <!-- Product 10 -->
+      <div class="bg-white rounded-xl shadow p-2 border hover:scale-105 transition">
+        <a href="https://fkrt.co/9dKAUL"><img
+            src="https://rukminim2.flixcart.com/image/612/612/xif0q/jacket/b/x/e/m-1-no-1732-nuevosporta-original-imahhggfwvz5cfzr.jpeg?q=70"
+            class="w-full h-28 sm:h-36 md:h-48 object-contain object-center rounded-lg" /></a>
+
+        <h3 class="text-xs sm:text-sm font-semibold mt-2 leading-tight">
+          Men Washed Denim Jacket
+        </h3>
+
+        <p class="text-gray-500 text-xs line-through">₹999</p>
+        <p class="text-black font-bold text-sm">₹137</p>
+      </div>
+      <!-- Product 11 -->
+      <div class="bg-white rounded-xl shadow p-2 border hover:scale-105 transition">
+        <a href="https://fkrt.co/9dKAUL"><img
+            src="https://rukminim2.flixcart.com/image/612/612/xif0q/jacket/b/x/e/m-1-no-1732-nuevosporta-original-imahhggfwvz5cfzr.jpeg?q=70"
+            class="w-full h-28 sm:h-36 md:h-48 object-contain object-center rounded-lg" /></a>
+
+        <h3 class="text-xs sm:text-sm font-semibold mt-2 leading-tight">
+          Men Washed Denim Jacket
+        </h3>
+
+        <p class="text-gray-500 text-xs line-through">₹999</p>
+        <p class="text-black font-bold text-sm">₹137</p>
+      </div>
+      <!-- Product 12 -->
+      <div class="bg-white rounded-xl shadow p-2 border hover:scale-105 transition">
+        <a href="https://fkrt.co/9dKAUL"><img
+            src="https://rukminim2.flixcart.com/image/612/612/xif0q/jacket/b/x/e/m-1-no-1732-nuevosporta-original-imahhggfwvz5cfzr.jpeg?q=70"
+            class="w-full h-28 sm:h-36 md:h-48 object-contain object-center rounded-lg" /></a>
+
+        <h3 class="text-xs sm:text-sm font-semibold mt-2 leading-tight">
+          Men Washed Denim Jacket
+        </h3>
+
+        <p class="text-gray-500 text-xs line-through">₹999</p>
+        <p class="text-black font-bold text-sm">₹137</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Offer Banner -->
+  <section class="bg-black text-white py-7 sm:py-12">
+    <div
+      class="max-w-7xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-4 sm:gap-6 text-center md:text-left">
+
+      <h2 class="text-xl sm:text-2xl md:text-3xl font-bold leading-tight">
+        🔥 Winter Sale – Flat 50% OFF
+      </h2>
+
+      <button class="bg-white text-black px-4 py-2 sm:px-6 sm:py-3 rounded-full text-sm sm:text-base">
+        Shop Now
+      </button>
+
+    </div>
+  </section>
+
+  <section id="products" class="max-w-7xl mx-auto px-4 py-6">
+
+    <!-- Grid: Mobile = 3, Tablet = 3, Desktop = 4 -->
+    <div class="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-4 gap-3">
+
+      <!-- Product 1 -->
+      <div class="bg-white rounded-xl shadow p-2 border hover:scale-105 transition">
+        <a href="https://fkrt.co/9dKAUL"><img
+            src="https://rukminim2.flixcart.com/image/612/612/xif0q/jacket/b/x/e/m-1-no-1732-nuevosporta-original-imahhggfwvz5cfzr.jpeg?q=70"
+            class="w-full h-28 sm:h-36 md:h-48 object-contain object-center rounded-lg" /></a>
+
+        <h3 class="text-xs sm:text-sm font-semibold mt-2 leading-tight">
+          Men Washed Denim Jacket
+        </h3>
+
+        <p class="text-gray-500 text-xs line-through">₹999</p>
+        <p class="text-black font-bold text-sm">₹137</p>
+      </div>
+
+      <!-- Product 2 -->
+      <div class="bg-white rounded-xl shadow p-2 border hover:scale-105 transition">
+        <img
+          src="https://rukminim2.flixcart.com/image/612/612/xif0q/jacket/n/e/h/s-1-no-14373682-roadster-original-imahgcq3rhf4szf2.jpeg?q=70"
+          class="w-full h-28 sm:h-36 md:h-48 object-contain object-center rounded-lg" />
+
+        <h3 class="text-xs sm:text-sm font-semibold mt-2 leading-tight">
+          Men Solid Padded Jacket
+        </h3>
+
+        <p class="text-gray-500 text-xs line-through">₹999</p>
+        <p class="text-black font-bold text-sm">₹137</p>
+        <!-- 
+            https://www.flipkart.com/roadster-full-sleeve-solid-men-padded-jacket/p/itm6c209c8274b59?pid=JCKG8RFNMZJUY6GN&lid=LSTJCKG8RFNMZJUY6GNPVPDI0&marketplace=FLIPKART&q=winter+jacket+for+men&store=clo%2Fqvw%2Fz0g%2Fjbm&srno=s_1_36&otracker=AS_QueryStore_OrganicAutoSuggest_1_4_na_na_ps&otracker1=AS_QueryStore_OrganicAutoSuggest_1_4_na_na_ps&fm=search-autosuggest&iid=1cdfaef6-92a4-4a90-859b-cc3e15fbd402.JCKG8RFNMZJUY6GN.SEARCH&ppt=sp&ppn=sp&qH=690734614a7cc75b -->
+      </div>
+
+      <!-- Product 3 -->
+      <div class="bg-white rounded-xl shadow p-2 border hover:scale-105 transition">
+        <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/jacket/4/v/j/-original-imah7yuhrukazzmz.jpeg?q=70"
+          class="w-full h-28 sm:h-36 md:h-48 object-contain object-center rounded-lg" />
+
+        <h3 class="text-xs sm:text-sm font-semibold mt-2 leading-tight">
+          Men Colorblock Puffer Jacket
+        </h3>
+
+        <p class="text-gray-500 text-xs line-through">₹999</p>
+        <p class="text-black font-bold text-sm">₹137</p>
+      </div>
+      <!-- https://www.flipkart.com/indian-garage-co-full-sleeve-colorblock-men-jacket/p/itm80e2e156f4560?pid=JCKH5PYBHGDCPKFK&lid=LSTJCKH5PYBHGDCPKFK8OH5TT&marketplace=FLIPKART&q=winter%20jacket%20for%20men&sattr[]=color&st=color -->
+
+      <!-- product 4 -->
+      <div class="bg-white rounded-xl shadow p-2 border hover:scale-105 transition">
+        <img
+          src="https://rukminim2.flixcart.com/image/612/612/xif0q/jacket/g/z/n/l-1-no-jakt-denimball-lblue-urbano-fashion-original-imahgbdzwky6hc9w.jpeg?q=70"
+          class="w-full h-28 sm:h-36 md:h-48 object-contain object-center rounded-lg" />
+
+        <h3 class="text-xs sm:text-sm font-semibold mt-2 leading-tight">
+          Men Washed Denim Jacket
+        </h3>
+
+        <p class="text-gray-500 text-xs line-through">₹999</p>
+        <p class="text-black font-bold text-sm">₹137</p>
+
+        <!-- https://www.flipkart.com/urbano-fashion-full-sleeve-washed-men-denim-jacket/p/itm01fc525705cf4?pid=JCKH27U8FAMMW3GG&lid=LSTJCKH27U8FAMMW3GGRG7CRR&marketplace=FLIPKART&q=winter+jacket+for+men&store=clo%2Fqvw%2Fz0g%2Fjbm&srno=s_1_33&otracker=AS_QueryStore_OrganicAutoSuggest_1_4_na_na_ps&otracker1=AS_QueryStore_OrganicAutoSuggest_1_4_na_na_ps&fm=search-autosuggest&iid=1cdfaef6-92a4-4a90-859b-cc3e15fbd402.JCKH27U8FAMMW3GG.SEARCH&ppt=sp&ppn=sp&qH=690734614a7cc75b -->
+      </div>
+
+      <!-- product 5 -->
+      <div class="bg-white rounded-xl shadow p-2 border hover:scale-105 transition">
+        <img
+          src="https://rukminim2.flixcart.com/image/612/612/xif0q/jacket/l/k/w/m-1-yes-velvet-m-azmifasion-original-imahgkqp7ymgurff.jpeg?q=70"
+          class="w-full h-28 sm:h-36 md:h-48 object-contain object-center rounded-lg" />
+
+        <h3 class="text-xs sm:text-sm font-semibold mt-2 leading-tight">
+          Men Solid Winter Coat
+        </h3>
+
+        <p class="text-gray-500 text-xs line-through">₹999</p>
+        <p class="text-black font-bold text-sm">₹137</p>
+        <!-- https://www.flipkart.com/azmifasion-full-sleeve-solid-men-jacket/p/itmc59bd90419396?pid=JCKHGKQPG9D8HPYY&lid=LSTJCKHGKQPG9D8HPYYRTJLYU&marketplace=FLIPKART&q=winter+jacket+for+men&store=clo%2Fqvw%2Fz0g%2Fjbm&srno=s_2_47&otracker=AS_QueryStore_OrganicAutoSuggest_1_4_na_na_ps&otracker1=AS_QueryStore_OrganicAutoSuggest_1_4_na_na_ps&fm=search-autosuggest&iid=983b839f-4074-40e7-8306-dcf9ded9ea59.JCKHGKQPG9D8HPYY.SEARCH&ppt=sp&ppn=sp&qH=690734614a7cc75b -->
+      </div>
+
+      <!-- product 6 -->
+      <div class="bg-white rounded-xl shadow p-2 border hover:scale-105 transition">
+        <img
+          src="https://rukminim2.flixcart.com/image/612/612/xif0q/jacket/n/t/m/l-no-ldr-jkt-0011-black-sms-creation-original-imaguuayayx7qeww.jpeg?q=70"
+          class="w-full h-28 sm:h-36 md:h-48 object-contain object-center rounded-lg" />
+
+        <h3 class="text-xs sm:text-sm font-semibold mt-2 leading-tight">
+          Men Solid Biker/RidingJacket
+        </h3>
+
+        <p class="text-gray-500 text-xs line-through">₹999</p>
+        <p class="text-black font-bold text-sm">₹137</p>
+        <!-- https://www.flipkart.com/sms-creation-full-sleeve-solid-men-jacket/p/itma7a8cac6b71c9?pid=JCKGUUA3HJ24Q5Q5&lid=LSTJCKGUUA3HJ24Q5Q5UE7MUM&marketplace=FLIPKART&q=winter+jacket+for+men&store=clo%2Fqvw%2Fz0g%2Fjbm&srno=s_4_154&otracker=AS_QueryStore_OrganicAutoSuggest_1_4_na_na_ps&otracker1=AS_QueryStore_OrganicAutoSuggest_1_4_na_na_ps&fm=search-autosuggest&iid=d93472c1-9910-4b68-9b93-05edc5f7021c.JCKGUUA3HJ24Q5Q5.SEARCH&ppt=sp&ppn=sp&qH=690734614a7cc75b -->
+      </div>
+      <!-- Product 7 -->
+      <div class="bg-white rounded-xl shadow p-2 border hover:scale-105 transition">
+        <a href="https://fkrt.co/9dKAUL"><img
+            src="https://rukminim2.flixcart.com/image/612/612/xif0q/jacket/b/x/e/m-1-no-1732-nuevosporta-original-imahhggfwvz5cfzr.jpeg?q=70"
+            class="w-full h-28 sm:h-36 md:h-48 object-contain object-center rounded-lg" /></a>
+
+        <h3 class="text-xs sm:text-sm font-semibold mt-2 leading-tight">
+          Men Washed Denim Jacket
+        </h3>
+
+        <p class="text-gray-500 text-xs line-through">₹999</p>
+        <p class="text-black font-bold text-sm">₹137</p>
+      </div>
+      <!-- Product 8 -->
+      <div class="bg-white rounded-xl shadow p-2 border hover:scale-105 transition">
+        <a href="https://fkrt.co/9dKAUL"><img
+            src="https://rukminim2.flixcart.com/image/612/612/xif0q/jacket/b/x/e/m-1-no-1732-nuevosporta-original-imahhggfwvz5cfzr.jpeg?q=70"
+            class="w-full h-28 sm:h-36 md:h-48 object-contain object-center rounded-lg" /></a>
+
+        <h3 class="text-xs sm:text-sm font-semibold mt-2 leading-tight">
+          Men Washed Denim Jacket
+        </h3>
+
+        <p class="text-gray-500 text-xs line-through">₹999</p>
+        <p class="text-black font-bold text-sm">₹137</p>
+      </div>
+      <!-- Product 9 -->
+      <div class="bg-white rounded-xl shadow p-2 border hover:scale-105 transition">
+        <a href="https://fkrt.co/9dKAUL"><img
+            src="https://rukminim2.flixcart.com/image/612/612/xif0q/jacket/b/x/e/m-1-no-1732-nuevosporta-original-imahhggfwvz5cfzr.jpeg?q=70"
+            class="w-full h-28 sm:h-36 md:h-48 object-contain object-center rounded-lg" /></a>
+
+        <h3 class="text-xs sm:text-sm font-semibold mt-2 leading-tight">
+          Men Washed Denim Jacket
+        </h3>
+
+        <p class="text-gray-500 text-xs line-through">₹999</p>
+        <p class="text-black font-bold text-sm">₹137</p>
+      </div>
+      <!-- Product 10 -->
+      <div class="bg-white rounded-xl shadow p-2 border hover:scale-105 transition">
+        <a href="https://fkrt.co/9dKAUL"><img
+            src="https://rukminim2.flixcart.com/image/612/612/xif0q/jacket/b/x/e/m-1-no-1732-nuevosporta-original-imahhggfwvz5cfzr.jpeg?q=70"
+            class="w-full h-28 sm:h-36 md:h-48 object-contain object-center rounded-lg" /></a>
+
+        <h3 class="text-xs sm:text-sm font-semibold mt-2 leading-tight">
+          Men Washed Denim Jacket
+        </h3>
+
+        <p class="text-gray-500 text-xs line-through">₹999</p>
+        <p class="text-black font-bold text-sm">₹137</p>
+      </div>
+      <!-- Product 11 -->
+      <div class="bg-white rounded-xl shadow p-2 border hover:scale-105 transition">
+        <a href="https://fkrt.co/9dKAUL"><img
+            src="https://rukminim2.flixcart.com/image/612/612/xif0q/jacket/b/x/e/m-1-no-1732-nuevosporta-original-imahhggfwvz5cfzr.jpeg?q=70"
+            class="w-full h-28 sm:h-36 md:h-48 object-contain object-center rounded-lg" /></a>
+
+        <h3 class="text-xs sm:text-sm font-semibold mt-2 leading-tight">
+          Men Washed Denim Jacket
+        </h3>
+
+        <p class="text-gray-500 text-xs line-through">₹999</p>
+        <p class="text-black font-bold text-sm">₹137</p>
+      </div>
+      <!-- Product 12 -->
+      <div class="bg-white rounded-xl shadow p-2 border hover:scale-105 transition">
+        <a href="https://fkrt.co/9dKAUL"><img
+            src="https://rukminim2.flixcart.com/image/612/612/xif0q/jacket/b/x/e/m-1-no-1732-nuevosporta-original-imahhggfwvz5cfzr.jpeg?q=70"
+            class="w-full h-28 sm:h-36 md:h-48 object-contain object-center rounded-lg" /></a>
+
+        <h3 class="text-xs sm:text-sm font-semibold mt-2 leading-tight">
+          Men Washed Denim Jacket
+        </h3>
+
+        <p class="text-gray-500 text-xs line-through">₹999</p>
+        <p class="text-black font-bold text-sm">₹137</p>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Video Section -->
+  <section class="max-w-7xl mx-auto px-4 py-10">
+    <div class="flex flex-col md:flex-row items-center gap-8">
+
+      <!-- Text Side -->
+      <div class="w-full md:w-1/2 text-center md:text-left">
+        <h2 class="text-3xl font-bold mb-3">Winter Collection</h2>
+        <p class="text-gray-600 text-lg">
+          Discover premium winter wear with stylish designs and warm comfort for your daily fashion needs.
+        </p>
+      </div>
+      <!-- Video -->
+      <div class="w-full md:w-1/2 flex justify-center">
+        <video class="w-full h-[190px] md:h-[320px] rounded-xl shadow-lg" muted playsinline loop autoplay preload>
+          <source src="video/Blue White Winter Collection Promotion Video.mp4" type="video/mp4" />
+        </video>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+  <footer class="py-8 text-center text-gray-600">
+    <p>© 2025 Winter Sweater Affiliate Store</p>
+  </footer>
+
+  <!-- AOS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+</body>
+
+</html>
