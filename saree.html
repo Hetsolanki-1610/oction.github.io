@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Winter Sweater Store</title>
+
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- AOS Animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+
+    <style>
+        .hero {
+            background: linear-gradient(to right, #f8fafc, #e2e8f0);
+        }
+    </style>
+</head>
+<body  class="bg-white text-gray-800">
+     <header class="bg-white shadow sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+
+            <!-- Logo + Name -->
+            <div class="flex items-center gap-">
+                <img src="image/White and Grey Elegant Minimalistic Fashion Clothing Logo.png" alt="Clothes Season Logo"
+                    class="w-15 h-10 object-contain">
+                <h1 class="text-2xl font-bold">Clothes Season</h1>
+            </div>
+
+            <button class="bg-black text-white px-5 py-2 rounded-full">Shop Now</button>
+        </div>
+    </header>
+
+    
+    
+      <section id="home" class="mt-[4px]">
+    <img src="image/op (2).png" 
+         alt="Shoes Banner" 
+         class="w-full h-[180px] md:h-[500px] object-cover object-center">
+  </section>
+
+
+   <section id="products" class="max-w-7xl mx-auto px-4 py-4">
+
+    <!-- Grid: Mobile = 3, Tablet = 3, Desktop = 4 -->
+    <div class="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-4 gap-3">
+
+      <!-- Product 1 -->
+      <div class="bg-white rounded-xl shadow p-2 border hover:scale-105 transition">
+        <a href="https://www.meesho.com/af_invite/397683987:instagram_stories:1345744?p_id=553596510&ext_id=95lhsu&utm_source=instagram_stories"><img
+            src="https://images.meesho.com/images/products/553596510/gqvxc_512.avif?width=512"
+            class="w-full h-28 sm:h-36 md:h-48 object-contain object-center rounded-lg" /></a>
+            <div class="flex items-center gap-1 mt-1">
+          <!-- Stars -->
+          <div class="flex text-yellow-400 text-xs sm:text-sm">
+            ★★★☆☆
+          </div>
+  
+          <!-- Rating count -->
+          <span class="text-gray-500 text-[10px] sm:text-xs">(3.9)</span>
+        </div>
+
+        <h3 class="text-xs sm:text-sm font-semibold mt-2 leading-tight">
+        GRIFEZ Women's FANCY...
+        </h3>
+
+        <p class="text-gray-500 text-xs line-through">₹478</p>
+        <p class="text-black font-bold text-sm">₹422</p>
+      </div>
+
+      <!-- Product 2 -->
+      <div class="bg-white rounded-xl shadow p-2 border hover:scale-105 transition">
+        <a href="https://www.meesho.com/af_invite/397683987:instagram_stories:1345744?p_id=579325601&ext_id=9kwyht&utm_source=instagram_stories"><img
+          src="https://images.meesho.com/images/products/579325601/5eik6_512.avif?width=512"
+          class="w-full h-28 sm:h-36 md:h-48 object-contain object-center rounded-lg" /></a>
+           <div class="flex items-center gap-1 mt-1">
+          <!-- Stars -->
+          <div class="flex text-yellow-400 text-xs sm:text-sm">
+            ★★★★☆
+          </div>
+  
+          <!-- Rating count -->
+          <span class="text-gray-500 text-[10px] sm:text-xs">(4.1)</span>
+        </div>
+
+        <h3 class="text-xs sm:text-sm font-semibold mt-2 leading-tight">
+        new trending saree...
+        </h3>
+
+        <p class="text-gray-500 text-xs line-through">442</p>
+        <p class="text-black font-bold text-sm">₹426</p>
+      </div>
+
+      <!-- Product 3 -->
+      <div class="bg-white rounded-xl shadow p-2 border hover:scale-105 transition">
+        <a href="https://www.meesho.com/af_invite/397683987:instagram_stories:1345744?p_id=475926393&ext_id=7vcr5l&utm_source=instagram_stories"><img src="https://images.meesho.com/images/products/475926393/c9b1z_512.avif?width=512"
+          class="w-full h-28 sm:h-36 md:h-48 object-contain object-center rounded-lg" /></a>
+          <div class="flex items-center gap-1 mt-1">
+          <!-- Stars -->
+          <div class="flex text-yellow-400 text-xs sm:text-sm">
+            ★★★★☆
+          </div>
+  
+          <!-- Rating count -->
+          <span class="text-gray-500 text-[10px] sm:text-xs">(4.0)</span>
+        </div>
+
+        <h3 class="text-xs sm:text-sm font-semibold mt-2 leading-tight">
+       Brasso Net Saree
+        </h3>
+
+        <p class="text-gray-500 text-xs line-through">₹281</p>
+        <p class="text-black font-bold text-sm">₹271</p>
+      </div>
+     
+
+      <!-- product 4 -->
+      <div class="bg-white rounded-xl shadow p-2 border hover:scale-105 transition">
+        <a href="https://www.meesho.com/af_invite/397683987:instagram_stories:1345744?p_id=415064743&ext_id=6v4a07&utm_source=instagram_stories"><img
+          src="https://images.meesho.com/images/products/415064743/0gwud_512.avif?width=512"
+          class="w-full h-28 sm:h-36 md:h-48 object-contain object-center rounded-lg" /></a>
+          <div class="flex items-center gap-1 mt-1">
+          <!-- Stars -->
+          <div class="flex text-yellow-400 text-xs sm:text-sm">
+            ★★★★☆
+          </div>
+  
+          <!-- Rating count -->
+          <span class="text-gray-500 text-[10px] sm:text-xs">(4.0)</span>
+        </div>
+
+        <h3 class="text-xs sm:text-sm font-semibold mt-2 leading-tight">
+        naylon saree for summer (Pack of 2)
+        </h3>
+
+        <p class="text-gray-500 text-xs line-through">₹546</p>
+        <p class="text-black font-bold text-sm">₹536</p>
+      </div>
+
+      <!-- product 5 -->
+      <div class="bg-white rounded-xl shadow p-2 border hover:scale-105 transition">
+        <a href="https://www.meesho.com/af_invite/397683987:instagram_stories:1345744?p_id=531308232&ext_id=8sbs20&utm_source=instagram_stories"><img
+          src="https://images.meesho.com/images/products/531308232/zdrfe_512.avif?width=512"
+          class="w-full h-28 sm:h-36 md:h-48 object-contain object-center rounded-lg" /></a>
+          <div class="flex items-center gap-1 mt-1">
+          <!-- Stars -->
+          <div class="flex text-yellow-400 text-xs sm:text-sm">
+            ★★★★☆
+          </div>
+  
+          <!-- Rating count -->
+          <span class="text-gray-500 text-[10px] sm:text-xs">(4.3)</span>
+        </div>
+
+        <h3 class="text-xs sm:text-sm font-semibold mt-2 leading-tight">
+      Banarasi silk saree
+        </h3>
+
+        <p class="text-gray-500 text-xs line-through">₹677</p>
+        <p class="text-black font-bold text-sm">₹661</p>
+        
+      </div>
+
+      <!-- product 6 -->
+      <div class="bg-white rounded-xl shadow p-2 border hover:scale-105 transition">
+        <a href="https://www.meesho.com/af_invite/397683987:instagram_stories:1345744?p_id=18446505&ext_id=azdex&utm_source=instagram_stories"><img
+          src="https://images.meesho.com/images/products/18446505/e3447_512.avif?width=512"
+          class="w-full h-28 sm:h-36 md:h-48 object-contain object-center rounded-lg" /></a>
+         <div class="flex items-center gap-1 mt-1">
+          <!-- Stars -->
+          <div class="flex text-yellow-400 text-xs sm:text-sm">
+            ★★★★☆
+          </div>
+   
+          <!-- Rating count -->
+          <span class="text-gray-500 text-[10px] sm:text-xs">(3.8)</span>
+        </div>
+
+        <h3 class="text-xs sm:text-sm font-semibold mt-2 leading-tight">
+         Abhisarika Refined Sarees
+        </h3>
+
+        <p class="text-gray-500 text-xs line-through">₹395</p>
+        <p class="text-black font-bold text-sm">₹379</p>
+      </div>
+      <!-- Product 7 -->
+      <div class="bg-white rounded-xl shadow p-2 border hover:scale-105 transition">
+        <a href="https://www.meesho.com/af_invite/397683987:instagram_stories:1345744?p_id=639881125&ext_id=akyvfp&utm_source=instagram_stories"><img
+            src="https://images.meesho.com/images/products/639881125/a7dph_512.avif?width=512"
+            class="w-full h-28 sm:h-36 md:h-48 object-contain object-center rounded-lg" /></a>
+            <div class="flex items-center gap-1 mt-1">
+          <!-- Stars -->
+          <div class="flex text-yellow-400 text-xs sm:text-sm">
+            ★★★☆☆
+          </div>
+  
+          <!-- Rating count -->
+          <span class="text-gray-500 text-[10px] sm:text-xs">(4.4)</span>
+        </div>
+
+        <h3 class="text-xs sm:text-sm font-semibold mt-2 leading-tight">
+         Women Dress-Lavendar
+        </h3>
+
+        <p class="text-gray-500 text-xs line-through">₹341</p>
+        <p class="text-black font-bold text-sm">₹331</p>
+      </div>
+      <!-- Product 8 -->
+      <div class="bg-white rounded-xl shadow p-2 border hover:scale-105 transition">
+        <a href="https://www.meesho.com/af_invite/397683987:instagram_stories:1345744?p_id=472718531&ext_id=7tfzyb&utm_source=instagram_stories"><img
+            src="https://images.meesho.com/images/products/472718531/wq25f_512.avif?width=512"
+            class="w-full h-28 sm:h-36 md:h-48 object-contain object-center rounded-lg" /></a>
+            <div class="flex items-center gap-1 mt-1">
+          <!-- Stars -->
+          <div class="flex text-yellow-400 text-xs sm:text-sm">
+            ★★★★☆
+          </div>
+  
+          <!-- Rating count -->
+          <span class="text-gray-500 text-[10px] sm:text-xs">(4.4)</span>
+        </div>
+
+        <h3 class="text-xs sm:text-sm font-semibold mt-2 leading-tight">
+         Pure cotton silver jariborder..
+        </h3>
+
+        <p class="text-gray-500 text-xs line-through">₹399</p>
+        <p class="text-black font-bold text-sm">₹394</p>
+      </div>
+
+      <!-- Product 9 -->
+      <div class="bg-white rounded-xl shadow p-2 border hover:scale-105 transition">
+        <a href="https://www.meesho.com/af_invite/397683987:instagram_stories:1345744?p_id=415586683&ext_id=6vfgqj&utm_source=instagram_stories"><img
+            src="https://images.meesho.com/images/products/415586683/vftj4_512.avif?width=512"
+            class="w-full h-28 sm:h-36 md:h-48 object-contain object-center rounded-lg" /></a>
+            <div class="flex items-center gap-1 mt-1">
+          <!-- Stars -->
+          <div class="flex text-yellow-400 text-xs sm:text-sm">
+            ★★★★☆
+          </div>
+  
+          <!-- Rating count -->
+          <span class="text-gray-500 text-[10px] sm:text-xs">(4.2)</span>
+        </div>
+
+        <h3 class="text-xs sm:text-sm font-semibold mt-2 leading-tight">
+       rendy Cotton Blend Jacquard.. 
+        </h3>
+
+        <p class="text-gray-500 text-xs line-through">₹637</p>
+        <p class="text-black font-bold text-sm">₹631</p>
+      </div>
+
+      <!-- Product 10 -->
+      <div class="bg-white rounded-xl shadow p-2 border hover:scale-105 transition">
+        <a href="https://www.meesho.com/af_invite/397683987:instagram_stories:1345744?p_id=172418270&ext_id=2unise&utm_source=instagram_stories"><img
+            src="https://images.meesho.com/images/products/172418270/gputp_512.avif?width=512"
+            class="w-full h-28 sm:h-36 md:h-48 object-contain object-center rounded-lg" /></a>
+             <div class="flex items-center gap-1 mt-1">
+          <!-- Stars -->
+          <div class="flex text-yellow-400 text-xs sm:text-sm">
+            ★★★★☆
+          </div>
+  
+          <!-- Rating count -->
+          <span class="text-gray-500 text-[10px] sm:text-xs">(3.9)</span>
+        </div>
+
+        <h3 class="text-xs sm:text-sm font-semibold mt-2 leading-tight">
+          Kurti For Women
+        </h3>
+
+        <p class="text-gray-500 text-xs line-through">₹348</p>
+        <p class="text-black font-bold text-sm">₹304</p>
+      </div>
+
+      <!-- Product 11 -->
+      <div class="bg-white rounded-xl shadow p-2 border hover:scale-105 transition">
+        <a href="https://www.meesho.com/af_invite/397683987:instagram_stories:1345744?p_id=472247157&ext_id=7t5w8l&utm_source=instagram_stories"><img
+            src="https://images.meesho.com/images/products/472247157/jlnzp_512.avif?width=512"
+            class="w-full h-28 sm:h-36 md:h-48 object-contain object-center rounded-lg" /></a>
+            <div class="flex items-center gap-1 mt-1">
+          <!-- Stars -->
+          <div class="flex text-yellow-400 text-xs sm:text-sm">
+            ★★★★☆
+          </div>
+  
+          <!-- Rating count -->
+          <span class="text-gray-500 text-[10px] sm:text-xs">(4.2)</span>
+        </div>
+
+        <h3 class="text-xs sm:text-sm font-semibold mt-2 leading-tight">
+        Exclusive Jaipuri Hand Block... 
+        </h3>
+
+        <p class="text-gray-500 text-xs line-through">₹433</p>
+        <p class="text-black font-bold text-sm">₹415</p>
+      </div>
+
+      <!-- Product 12 -->
+      <div class="bg-white rounded-xl shadow p-2 border hover:scale-105 transition">
+        <a href="https://www.meesho.com/af_invite/397683987:instagram_stories:1345744?p_id=443712653&ext_id=7c6avh&utm_source=instagram_stories"><img
+            src="https://images.meesho.com/images/products/443712653/f6ci4_512.avif?width=512"
+            class="w-full h-28 sm:h-36 md:h-48 object-contain object-center rounded-lg" /></a>
+            <div class="flex items-center gap-1 mt-1">
+          <!-- Stars -->
+          <div class="flex text-yellow-400 text-xs sm:text-sm">
+            ★★★★☆
+          </div>
+  
+          <!-- Rating count -->
+          <span class="text-gray-500 text-[10px] sm:text-xs">(4.2)</span>
+        </div>
+
+        <h3 class="text-xs sm:text-sm font-semibold mt-2 leading-tight">
+         Karishma Red Buta Pure Cotton
+        </h3>
+
+        <p class="text-gray-500 text-xs line-through">₹417</p>
+        <p class="text-black font-bold text-sm">₹400</p>
+      </div>
+
+      <!-- Product 13 -->
+      <div class="bg-white rounded-xl shadow p-2 border hover:scale-105 transition">
+        <a href="https://www.meesho.com/af_invite/397683987:instagram_stories:1345744?p_id=172905418&ext_id=2uxyoa&utm_source=instagram_stories"><img
+            src="https://images.meesho.com/images/products/172905418/vwrks_512.avif?width=512"
+            class="w-full h-28 sm:h-36 md:h-48 object-contain object-center rounded-lg" /></a>
+            <div class="flex items-center gap-1 mt-1">
+          <!-- Stars -->
+          <div class="flex text-yellow-400 text-xs sm:text-sm">
+            ★★★★☆
+          </div>
+  
+          <!-- Rating count -->
+          <span class="text-gray-500 text-[10px] sm:text-xs">(4.1)</span>
+        </div>
+
+        <h3 class="text-xs sm:text-sm font-semibold mt-2 leading-tight">
+       Chanderi Chanderi Cotton.
+        </h3>
+
+        <p class="text-gray-500 text-xs line-through">₹350</p>
+        <p class="text-black font-bold text-sm">₹341</p>
+      </div>
+
+      <!-- Product 14 -->
+      <div class="bg-white rounded-xl shadow p-2 border hover:scale-105 transition">
+        <a href="https://www.meesho.com/af_invite/397683987:instagram_stories:1345744?p_id=481155897&ext_id=7ygu9l&utm_source=instagram_stories"><img
+            src="https://images.meesho.com/images/products/481155897/tuiil_512.avif?width=512"
+            class="w-full h-28 sm:h-36 md:h-48 object-contain object-center rounded-lg" /></a>
+            <div class="flex items-center gap-1 mt-1">
+          <!-- Stars -->
+          <div class="flex text-yellow-400 text-xs sm:text-sm">
+            ★★★★☆
+          </div>
+  
+          <!-- Rating count -->
+          <span class="text-gray-500 text-[10px] sm:text-xs">(4.0)</span>
+        </div>
+  
+        <h3 class="text-xs sm:text-sm font-semibold mt-2 leading-tight">
+      Exclusive printed cotton saree...
+        </h3>
+  
+        <p class="text-gray-500 text-xs line-through">₹426</p>
+        <p class="text-black font-bold text-sm">₹400</p>
+      </div>
+
+      <!-- Product 15 -->
+      <div class="bg-white rounded-xl shadow p-2 border hover:scale-105 transition">
+        <a href="https://www.meesho.com/af_invite/397683987:instagram_stories:1345744?p_id=557318203&ext_id=97t9h7&utm_source=instagram_stories"><img
+            src="https://images.meesho.com/images/products/557318203/3edvk_512.avif?width=512"
+            class="w-full h-28 sm:h-36 md:h-48 object-contain object-center rounded-lg" /></a>
+            <div class="flex items-center gap-1 mt-1">
+          <!-- Stars -->
+          <div class="flex text-yellow-400 text-xs sm:text-sm">
+            ★★★★☆
+          </div>
+  
+          <!-- Rating count -->
+          <span class="text-gray-500 text-[10px] sm:text-xs">(4.1)</span>
+        </div>
+  
+        <h3 class="text-xs sm:text-sm font-semibold mt-2 leading-tight">
+      Premium Pure Cotton Saree..
+        </h3>
+  
+        <p class="text-gray-500 text-xs line-through">₹442</p>
+        <p class="text-black font-bold text-sm">₹424</p>
+      </div>
+
+      <!-- Product 16 -->
+      <div class="bg-white rounded-xl shadow p-2 border hover:scale-105 transition">
+        <a href="https://www.meesho.com/af_invite/397683987:instagram_stories:1345744?p_id=151676608&ext_id=2iayf4&utm_source=instagram_stories"><img
+            src="https://images.meesho.com/images/products/151676608/xz3xo_512.avif?width=512"
+            class="w-full h-28 sm:h-36 md:h-48 object-contain object-center rounded-lg" /></a>
+            <div class="flex items-center gap-1 mt-1">
+          <!-- Stars -->
+          <div class="flex text-yellow-400 text-xs sm:text-sm">
+            ★★★★☆
+          </div>
+  
+          <!-- Rating count -->
+          <span class="text-gray-500 text-[10px] sm:text-xs">(3.8)</span>
+        </div>
+  
+        <h3 class="text-xs sm:text-sm font-semibold mt-2 leading-tight">
+    FANCY ZARI Cotton Women's 
+        </h3>
+  
+        <p class="text-gray-500 text-xs line-through">₹267</p>
+        <p class="text-black font-bold text-sm">₹259</p>
+      </div>
+
+      <!-- Product 17 -->
+      <div class="bg-white rounded-xl shadow p-2 border hover:scale-105 transition">
+        <a href="https://www.meesho.com/af_invite/397683987:instagram_stories:1345744?p_id=556053018&ext_id=972596&utm_source=instagram_stories"><img
+            src="https://images.meesho.com/images/products/556053018/8piyv_512.avif?width=512"
+            class="w-full h-28 sm:h-36 md:h-48 object-contain object-center rounded-lg" /></a>
+            <div class="flex items-center gap-1 mt-1">
+          <!-- Stars -->
+          <div class="flex text-yellow-400 text-xs sm:text-sm">
+            ★★★★☆
+          </div>
+  
+          <!-- Rating count -->
+          <span class="text-gray-500 text-[10px] sm:text-xs">(4.2)</span>
+        </div>
+  
+        <h3 class="text-xs sm:text-sm font-semibold mt-2 leading-tight">
+     Banarasi silk saree
+        </h3>
+  
+        <p class="text-gray-500 text-xs line-through">₹697</p>
+        <p class="text-black font-bold text-sm">₹681</p>
+      </div>
+
+      <!-- Product 18 -->
+      <div class="bg-white rounded-xl shadow p-2 border hover:scale-105 transition">
+        <a href="https://www.meesho.com/af_invite/397683987:instagram_stories:1345744?p_id=541474975&ext_id=8ydorj&utm_source=instagram_stories"><img
+            src="https://images.meesho.com/images/products/541474975/woymd_512.avif?width=512"
+            class="w-full h-28 sm:h-36 md:h-48 object-contain object-center rounded-lg" /></a>
+            <div class="flex items-center gap-1 mt-1">
+          <!-- Stars -->
+          <div class="flex text-yellow-400 text-xs sm:text-sm">
+            ★★★★☆
+          </div>
+  
+          <!-- Rating count -->
+          <span class="text-gray-500 text-[10px] sm:text-xs">(4.0)</span>
+        </div>
+  
+        <h3 class="text-xs sm:text-sm font-semibold mt-2 leading-tight">
+    Women Designer Wedding Look.. 
+        </h3>
+  
+        <p class="text-gray-500 text-xs line-through">₹576</p>
+        <p class="text-black font-bold text-sm">₹560</p>
+      </div>
+      <!-- Product 19 -->
+      <div class="bg-white rounded-xl shadow p-2 border hover:scale-105 transition">
+        <a href="https://www.meesho.com/af_invite/397683987:instagram_stories:1345744?p_id=566302230&ext_id=9d5tli&utm_source=instagram_stories"><img
+            src="https://images.meesho.com/images/products/566302230/na1qt_512.avif?width=512"
+            class="w-full h-28 sm:h-36 md:h-48 object-contain object-center rounded-lg" /></a>
+            <div class="flex items-center gap-1 mt-1">
+          <!-- Stars -->
+          <div class="flex text-yellow-400 text-xs sm:text-sm">
+            ★★★★☆
+          </div>
+  
+          <!-- Rating count -->
+          <span class="text-gray-500 text-[10px] sm:text-xs">(4.4)</span>
+        </div>
+  
+        <h3 class="text-xs sm:text-sm font-semibold mt-2 leading-tight">
+   Banarasi silk saree
+        </h3>
+  
+        <p class="text-gray-500 text-xs line-through">₹697</p>
+        <p class="text-black font-bold text-sm">₹681</p>
+      </div>
+
+      <!-- Product 20 -->
+      <div class="bg-white rounded-xl shadow p-2 border hover:scale-105 transition">
+        <a href="https://www.meesho.com/af_invite/397683987:instagram_stories:1345744?p_id=579027100&ext_id=9kqk64&utm_source=instagram_stories"><img
+            src="https://images.meesho.com/images/products/579027100/mvnpk_512.avif?width=512"
+            class="w-full h-28 sm:h-36 md:h-48 object-contain object-center rounded-lg" /></a>
+            <div class="flex items-center gap-1 mt-1">
+          <!-- Stars -->
+          <div class="flex text-yellow-400 text-xs sm:text-sm">
+            ★★★★☆
+          </div>
+  
+          <!-- Rating count -->
+          <span class="text-gray-500 text-[10px] sm:text-xs">(4.2)</span>
+        </div>
+  
+        <h3 class="text-xs sm:text-sm font-semibold mt-2 leading-tight">
+   Maroon Kanjeevaram ...
+        </h3>
+  
+        <p class="text-gray-500 text-xs line-through">₹465</p>
+        <p class="text-black font-bold text-sm">₹449</p>
+      </div>
+
+      <!-- Product 21 -->
+      <div class="bg-white rounded-xl shadow p-2 border hover:scale-105 transition">
+        <a href="https://www.meesho.com/af_invite/397683987:instagram_stories:1345744?p_id=580558251&ext_id=9lndm3&utm_source=instagram_stories"><img
+            src="https://images.meesho.com/images/products/580558251/rq3ty_512.avif?width=512"
+            class="w-full h-28 sm:h-36 md:h-48 object-contain object-center rounded-lg" /></a>
+            <div class="flex items-center gap-1 mt-1">
+          <!-- Stars -->
+          <div class="flex text-yellow-400 text-xs sm:text-sm">
+            ★★★★☆
+          </div>
+  
+          <!-- Rating count -->
+          <span class="text-gray-500 text-[10px] sm:text-xs">(3.9)</span>
+        </div>
+  
+        <h3 class="text-xs sm:text-sm font-semibold mt-2 leading-tight">
+ Purple Kanje evaram..
+        </h3>
+  
+        <p class="text-gray-500 text-xs line-through">₹465</p>
+        <p class="text-black font-bold text-sm">₹449</p>
+      </div>
+      <!-- Product 22 -->
+      <div class="bg-white rounded-xl shadow p-2 border hover:scale-105 transition">
+        <a href="https://www.meesho.com/af_invite/397683987:instagram_stories:1345744?p_id=574530783&ext_id=9i26sf&utm_source=instagram_stories"><img
+            src="https://images.meesho.com/images/products/574530783/yi2wa_512.avif?width=512"
+            class="w-full h-28 sm:h-36 md:h-48 object-contain object-center rounded-lg" /></a>
+            <div class="flex items-center gap-1 mt-1">
+          <!-- Stars -->
+          <div class="flex text-yellow-400 text-xs sm:text-sm">
+            ★★★★☆
+          </div>
+  
+          <!-- Rating count -->
+          <span class="text-gray-500 text-[10px] sm:text-xs">(3.8)</span>
+        </div>
+  
+        <h3 class="text-xs sm:text-sm font-semibold mt-2 leading-tight">
+Purple Kanje evaram..
+        </h3>
+  
+        <p class="text-gray-500 text-xs line-through">₹464</p>
+        <p class="text-black font-bold text-sm">₹448</p>
+      </div>
+
+      <!-- Product 23 -->
+      <div class="bg-white rounded-xl shadow p-2 border hover:scale-105 transition">
+        <a href="https://www.meesho.com/af_invite/397683987:instagram_stories:1345744?p_id=598719592&ext_id=9wgmzs&utm_source=instagram_stories"><img
+            src="https://images.meesho.com/images/products/598719592/znsae_512.avif?width=512"
+            class="w-full h-28 sm:h-36 md:h-48 object-contain object-center rounded-lg" /></a>
+            <div class="flex items-center gap-1 mt-1">
+          <!-- Stars -->
+          <div class="flex text-yellow-400 text-xs sm:text-sm">
+            ★★★★☆
+          </div>
+  
+          <!-- Rating count -->
+          <span class="text-gray-500 text-[10px] sm:text-xs">(4.0)</span>
+        </div>
+  
+        <h3 class="text-xs sm:text-sm font-semibold mt-2 leading-tight">
+RIKA Purple Soft Lichi SilkWoven...
+        </h3>
+  
+        <p class="text-gray-500 text-xs line-through">₹828</p>
+        <p class="text-black font-bold text-sm">₹818</p>
+      </div>
+      <!-- Product 24 -->
+      <div class="bg-white rounded-xl shadow p-2 border hover:scale-105 transition">
+        <a href="https://www.meesho.com/af_invite/397683987:instagram_stories:1345744?p_id=72329901&ext_id=172a3x&utm_source=instagram_stories"><img
+            src="https://images.meesho.com/images/products/72329901/2m8sc_512.avif?width=512"
+            class="w-full h-28 sm:h-36 md:h-48 object-contain object-center rounded-lg" /></a>
+            <div class="flex items-center gap-1 mt-1">
+          <!-- Stars -->
+          <div class="flex text-yellow-400 text-xs sm:text-sm">
+            ★★★★☆
+          </div>
+  
+          <!-- Rating count -->
+          <span class="text-gray-500 text-[10px] sm:text-xs">(4.3)</span>
+        </div>
+  
+        <h3 class="text-xs sm:text-sm font-semibold mt-2 leading-tight">
+Women's Soft Silk Uppada...
+        </h3>
+  
+        <p class="text-gray-500 text-xs line-through">₹305</p>
+        <p class="text-black font-bold text-sm">₹295</p>
+      </div>
+
+      <!-- Product 25 -->
+      <div class="bg-white rounded-xl shadow p-2 border hover:scale-105 transition">
+        <a href="https://www.meesho.com/af_invite/397683987:instagram_stories:1345744?p_id=89755284&ext_id=1hfrmc&utm_source=instagram_stories"><img
+            src="https://images.meesho.com/images/products/89755284/jxuai_512.avif?width=512"
+            class="w-full h-28 sm:h-36 md:h-48 object-contain object-center rounded-lg" /></a>
+            <div class="flex items-center gap-1 mt-1">
+          <!-- Stars -->
+          <div class="flex text-yellow-400 text-xs sm:text-sm">
+            ★★★★☆
+          </div>
+  
+          <!-- Rating count -->
+          <span class="text-gray-500 text-[10px] sm:text-xs">(4.3)</span>
+        </div>
+  
+        <h3 class="text-xs sm:text-sm font-semibold mt-2 leading-tight">
+Exclusive Soft Georgete Floral...
+        </h3>
+  
+        <p class="text-gray-500 text-xs line-through">₹440</p>
+        <p class="text-black font-bold text-sm">₹424</p>
+      </div>
+      <!-- Product 26 -->
+      <div class="bg-white rounded-xl shadow p-2 border hover:scale-105 transition">
+        <a href="https://www.meesho.com/af_invite/397683987:instagram_stories:1345744?p_id=590782846&ext_id=9rqiym&utm_source=instagram_stories"><img
+            src="https://images.meesho.com/images/products/590782846/gm16r_512.avif?width=512"
+            class="w-full h-28 sm:h-36 md:h-48 object-contain object-center rounded-lg" /></a>
+            <div class="flex items-center gap-1 mt-1">
+          <!-- Stars -->
+          <div class="flex text-yellow-400 text-xs sm:text-sm">
+            ★★★★☆
+          </div>
+  
+          <!-- Rating count -->
+          <span class="text-gray-500 text-[10px] sm:text-xs">(4.4)</span>
+        </div>
+  
+        <h3 class="text-xs sm:text-sm font-semibold mt-2 leading-tight">
+KANJIVARAM SILK SAREE..
+        </h3>
+  
+        <p class="text-gray-500 text-xs line-through">₹871</p>
+        <p class="text-black font-bold text-sm">₹855</p>
+      </div>
+      <!-- Product 27 -->
+      <div class="bg-white rounded-xl shadow p-2 border hover:scale-105 transition">
+        <a href="https://www.meesho.com/af_invite/397683987:instagram_stories:1345744?p_id=660435177&ext_id=ax7f1l&utm_source=instagram_stories"><img
+            src="https://images.meesho.com/images/products/660435177/5hos5_512.avif?width=512"
+            class="w-full h-28 sm:h-36 md:h-48 object-contain object-center rounded-lg" /></a>
+            <div class="flex items-center gap-1 mt-1">
+          <!-- Stars -->
+          <div class="flex text-yellow-400 text-xs sm:text-sm">
+            ★★★★☆
+          </div>
+  
+          <!-- Rating count -->
+          <span class="text-gray-500 text-[10px] sm:text-xs">(New)</span>
+        </div>
+  
+        <h3 class="text-xs sm:text-sm font-semibold mt-2 leading-tight">
+Elegant Green Printed...
+        </h3>
+  
+        <p class="text-gray-500 text-xs line-through">₹690</p>
+        <p class="text-black font-bold text-sm">₹680</p>
+      </div>
+
+      <!-- Product 27 -->
+      <div class="bg-white rounded-xl shadow p-2 border hover:scale-105 transition">
+        <a href="https://www.meesho.com/af_invite/397683987:instagram_stories:1345744?p_id=531088901&ext_id=8s72th&utm_source=instagram_stories"><img
+            src="https://images.meesho.com/images/products/531088901/krpkj_512.avif?width=512"
+            class="w-full h-28 sm:h-36 md:h-48 object-contain object-center rounded-lg" /></a>
+            <div class="flex items-center gap-1 mt-1">
+          <!-- Stars -->
+          <div class="flex text-yellow-400 text-xs sm:text-sm">
+            ★★★★☆
+          </div>
+  
+          <!-- Rating count -->
+          <span class="text-gray-500 text-[10px] sm:text-xs">(3.9)</span>
+        </div>
+  
+        <h3 class="text-xs sm:text-sm font-semibold mt-2 leading-tight">
+Elegant Green Printed...
+        </h3>
+  
+        <p class="text-gray-500 text-xs line-through">₹369</p>
+        <p class="text-black font-bold text-sm">₹359</p>
+      </div>
+
+      <!-- Product 28 -->
+      <div class="bg-white rounded-xl shadow p-2 border hover:scale-105 transition">
+        <a href="https://www.meesho.com/af_invite/397683987:instagram_stories:1345744?p_id=564094060&ext_id=9buhrg&utm_source=instagram_stories"><img
+            src="https://images.meesho.com/images/products/564094060/4bya4_512.avif?width=512"
+            class="w-full h-28 sm:h-36 md:h-48 object-contain object-center rounded-lg" /></a>
+            <div class="flex items-center gap-1 mt-1">
+          <!-- Stars -->
+          <div class="flex text-yellow-400 text-xs sm:text-sm">
+            ★★★★☆
+          </div>
+  
+          <!-- Rating count -->
+          <span class="text-gray-500 text-[10px] sm:text-xs">(3.8)</span>
+        </div>
+  
+        <h3 class="text-xs sm:text-sm font-semibold mt-2 leading-tight">
+Premium Party wear SILVER...
+        </h3>
+  
+        <p class="text-gray-500 text-xs line-through">₹380</p>
+        <p class="text-black font-bold text-sm">₹364</p>
+      </div>
+      <!-- Product 29 -->
+      <div class="bg-white rounded-xl shadow p-2 border hover:scale-105 transition">
+        <a href="https://www.meesho.com/af_invite/397683987:instagram_stories:1345744?p_id=452400594&ext_id=7hcij6&utm_source=instagram_stories"><img
+            src="https://images.meesho.com/images/products/452400594/hgjsr_512.avif?width=512"
+            class="w-full h-28 sm:h-36 md:h-48 object-contain object-center rounded-lg" /></a>
+            <div class="flex items-center gap-1 mt-1">
+          <!-- Stars -->
+          <div class="flex text-yellow-400 text-xs sm:text-sm">
+            ★★★★☆
+          </div>
+  
+          <!-- Rating count -->
+          <span class="text-gray-500 text-[10px] sm:text-xs">(4.1)</span>
+        </div>
+  
+        <h3 class="text-xs sm:text-sm font-semibold mt-2 leading-tight">
+jacquard patola saree...
+        </h3>
+  
+        <p class="text-gray-500 text-xs line-through">₹410</p>
+        <p class="text-black font-bold text-sm">₹394</p>
+      </div>
+
+      <!-- Product 30 -->
+      <div class="bg-white rounded-xl shadow p-2 border hover:scale-105 transition">
+        <a href="https://www.meesho.com/af_invite/397683987:instagram_stories:1345744?p_id=574680566&ext_id=9i5ed2&utm_source=instagram_stories"><img
+            src="https://images.meesho.com/images/products/574680566/mefko_512.avif?width=512"
+            class="w-full h-28 sm:h-36 md:h-48 object-contain object-center rounded-lg" /></a>
+            <div class="flex items-center gap-1 mt-1">
+          <!-- Stars -->
+          <div class="flex text-yellow-400 text-xs sm:text-sm">
+            ★★★★☆
+          </div>
+  
+          <!-- Rating count -->
+          <span class="text-gray-500 text-[10px] sm:text-xs">(4.0)</span>
+        </div>
+  
+        <h3 class="text-xs sm:text-sm font-semibold mt-2 leading-tight">
+Wine Kanje evaram Soft...
+        </h3>
+  
+        <p class="text-gray-500 text-xs line-through">₹505</p>
+        <p class="text-black font-bold text-sm">₹440</p>
+      </div>
+      <!-- Product 31 -->
+      <div class="bg-white rounded-xl shadow p-2 border hover:scale-105 transition">
+        <a href="https://www.meesho.com/af_invite/397683987:instagram_stories:1345744?p_id=875292&ext_id=irdo&utm_source=instagram_stories"><img
+            src="https://images.meesho.com/images/products/875292/b7lap_512.avif?width=512"
+            class="w-full h-28 sm:h-36 md:h-48 object-contain object-center rounded-lg" /></a>
+            <div class="flex items-center gap-1 mt-1">
+          <!-- Stars -->
+          <div class="flex text-yellow-400 text-xs sm:text-sm">
+            ★★★★☆
+          </div>
+  
+          <!-- Rating count -->
+          <span class="text-gray-500 text-[10px] sm:text-xs">(4.1)</span>
+        </div>
+  
+        <h3 class="text-xs sm:text-sm font-semibold mt-2 leading-tight">
+Stylish Banarasi Jacquard Saree...
+        </h3>
+  
+        <p class="text-gray-500 text-xs line-through">₹542</p>
+        <p class="text-black font-bold text-sm">₹511</p>
+      </div>
+      <!-- Product 31 -->
+      <div class="bg-white rounded-xl shadow p-2 border hover:scale-105 transition">
+        <a href="https://www.meesho.com/af_invite/397683987:instagram_stories:1345744?p_id=529856278&ext_id=8rgnpy&utm_source=instagram_stories"><img
+            src="https://images.meesho.com/images/products/529856278/le2hz_512.avif?width=512"
+            class="w-full h-28 sm:h-36 md:h-48 object-contain object-center rounded-lg" /></a>
+            <div class="flex items-center gap-1 mt-1">
+          <!-- Stars -->
+          <div class="flex text-yellow-400 text-xs sm:text-sm">
+            ★★★★☆
+          </div>
+  
+          <!-- Rating count -->
+          <span class="text-gray-500 text-[10px] sm:text-xs">(4.1)</span>
+        </div>
+  
+        <h3 class="text-xs sm:text-sm font-semibold mt-2 leading-tight">
+jacquard patola saree...
+        </h3>
+  
+        <p class="text-gray-500 text-xs line-through">₹542</p>
+        <p class="text-black font-bold text-sm">₹526</p>
+      </div>
+      <!-- Product 29 -->
+      <div class="bg-white rounded-xl shadow p-2 border hover:scale-105 transition">
+        <a href="https://www.meesho.com/af_invite/397683987:instagram_stories:1345744?p_id=543992475&ext_id=8zvna3&utm_source=instagram_stories"><img
+            src="https://images.meesho.com/images/products/543992475/jxxh4_512.avif?width=512"
+            class="w-full h-28 sm:h-36 md:h-48 object-contain object-center rounded-lg" /></a>
+            <div class="flex items-center gap-1 mt-1">
+          <!-- Stars -->
+          <div class="flex text-yellow-400 text-xs sm:text-sm">
+            ★★★★☆
+          </div>
+  
+          <!-- Rating count -->
+          <span class="text-gray-500 text-[10px] sm:text-xs">(4.1)</span>
+        </div>
+  
+        <h3 class="text-xs sm:text-sm font-semibold mt-2 leading-tight">
+jacquard patola saree...
+        </h3>
+  
+        <p class="text-gray-500 text-xs line-through">₹410</p>
+        <p class="text-black font-bold text-sm">₹431</p>
+      </div>
+
+    </div>
+    
+  </section>
+</body>
+</html>
+
+
+
+
+ 
